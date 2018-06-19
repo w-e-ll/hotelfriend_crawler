@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger()
 
 
-class HotelDescriptionSpider(Spider):
+class HotelSpider(Spider):
 
     name = 'hotel'
     allowed_domains = ['hotelfriend.com']
